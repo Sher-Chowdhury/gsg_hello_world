@@ -1,3 +1,3 @@
-module github.com/Sher-Chowdhury/my_go_app1
+module github.com/Sher-Chowdhury/gsg_hello_world
 
 go 1.12
