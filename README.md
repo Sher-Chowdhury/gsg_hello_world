@@ -57,11 +57,11 @@ hello world
 I'm using a macbook, so this executable will only work on macbooks.
 
 ```bash
-$ file ./gsg_hello_world 
+$ file ./gsg_hello_world
 ./gsg_hello_world: Mach-O 64-bit executable x86_64
 ```
 
-If you want to build for other targets, e.g. ubuntu, then you need to run:
+If you want to build for other targets, e.g. ubuntu, then you need to run with some variable settings:
 
 
 ```
@@ -76,4 +76,4 @@ $ file ./gsg_hello_world
 ```
 
 
-See - https://golang.org/doc/install/source#environment
+See - https://golang.org/doc/install/source#environment - for more info GOOS, GOARCH and others. 
