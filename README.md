@@ -21,6 +21,14 @@ $ go doc fmt.Println
 ...
 ```
 
+Every golang program must be part of a package. Where the main package is given the name "package main", and the main package can use other sub packages, in this case, our main package makes use of the 'fmt' package. 
+fmt is actually one of the standard library of packages - https://golang.org/pkg/#stdlib - these standard packages comes included with golang itself. 
+
+You can have several files making making up your golang app, in which case all these files will start with 'package main', and the file that contains your 'func main()' is the starting point of your appl. 
+
+
+
+
 ## build from source
 
 ```bash
