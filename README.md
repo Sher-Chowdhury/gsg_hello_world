@@ -84,4 +84,9 @@ $ file ./gsg_hello_world
 ```
 
 
-See - https://golang.org/doc/install/source#environment - for more info GOOS, GOARCH and others. 
+See - https://golang.org/doc/install/source#environment - for more info GOOS, GOARCH and others.
+
+
+### Why have a function call 'main'
+
+When you run a shell script, it usually is a single file, and the execution happens from the top of the shell script, and works it's way down, hence for the shell script, the top of the file is the starting point. With a golang project. all your code can span across lots of *.go. So you need some way to tell golang where to start the execution from. That's done by defining the main function. 
